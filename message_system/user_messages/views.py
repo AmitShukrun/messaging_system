@@ -23,6 +23,8 @@ class UserMessageListAPIView(generics.ListAPIView):
 @api_view(['GET'])
 @permission_classes([IsAuthenticated, IsAdminUser])
 def get_user_messages(request, pk):
+    """ This function is responsible for returning user messages """
+
     try:
         unread_messages = request.query_params.get('unread')
         if unread_messages:
@@ -41,6 +43,7 @@ def get_user_messages(request, pk):
 @api_view(['GET', 'PUT', 'DELETE'])
 @permission_classes([IsAuthenticated, IsAdminUser])
 def read_delete_message(request, pk):
+    """ In this function we can receive, read and delete a message """
 
     try:
 
@@ -71,6 +74,8 @@ def read_delete_message(request, pk):
 @api_view(['POST'])
 @permission_classes([IsAuthenticated, IsAdminUser])
 def write_message(request):
+    """ In this function we write a message """
+
     sender_username = request.data.get('sender')
     receiver_username = request.data.get('receiver')
 
