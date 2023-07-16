@@ -3,6 +3,8 @@ from django.contrib.auth.models import User
 
 
 class Message(models.Model):
+    """ In the following code, we define a Django model called Message that represents a message sent between users """
+
     sender = models.ForeignKey(User, on_delete=models.CASCADE, related_name='sent_messages')
     receiver = models.ForeignKey(User, on_delete=models.CASCADE, related_name='received_messages')
     message = models.TextField()
