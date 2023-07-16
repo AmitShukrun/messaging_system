@@ -61,7 +61,9 @@ def read_delete_message(request, pk):
         elif request.method == 'PUT':
             message.is_read = True
             message.save()
-            return Response({"success": "The message was read"}, status=status.HTTP_204_NO_CONTENT)
+
+            serializer = MessageSerializer(message)
+            return Response({"success": serializer.data}, status=status.HTTP_204_NO_CONTENT)
 
         elif request.method == 'DELETE':
             message.delete()
