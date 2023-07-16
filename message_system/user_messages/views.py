@@ -35,7 +35,7 @@ def read_delete_message(request, pk):
     try:
 
         if not request.user.is_authenticated:
-            return Response("The user is not authenticated", status=status.HTTP_401_UNAUTHORIZED)
+            return Response("message: The user is not authenticated", status=status.HTTP_401_UNAUTHORIZED)
 
         user = request.user
 
