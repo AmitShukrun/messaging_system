@@ -62,8 +62,7 @@ The system will handle various operations such as sending, receiving, and managi
    
    <br>
    
-   ![](/images/generate_token.png)
-
+   ![](images/generate_token.png)
 
    <br>
 
@@ -80,7 +79,7 @@ The system will handle various operations such as sending, receiving, and managi
 8. Now according to the next picture we'll copy only the value of the access (without quotation marks)
    
 
-   ![](/images/token_resp.png)
+   ![](images/token_resp.png)
 
    <br>
 
