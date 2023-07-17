@@ -64,6 +64,7 @@ The system will handle various operations such as sending, receiving, and managi
    
    ![](/images/generate_token.png)
 
+
    <br>
 
    * Choose the POST/DELETE/GET option
