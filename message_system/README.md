@@ -43,10 +43,9 @@ The system will handle various operations such as sending, receiving, and managi
     ```
     python manage.py runserver
     ```
-   <br>
     We write this command to bring the server live.
-<br>
-
+   
+   <br>
 5. Now we'll create superuser in the Django admin panel
 
    * By Django's Admin interface
@@ -54,39 +53,31 @@ The system will handle various operations such as sending, receiving, and managi
 
    <br>
 
-
 6. Now logged into Postman to send one of the requests.
    * **Please note:** I have attached a file called "Messaging system.postman_collection.json" which is a collection that contains all the requests needed for the project. 
 
-
-<br>
-    
+   <br>
 7. Send a request from Postman.
    * **Firstly you need to generate a token, and perform the following steps according to the picture:**
    
-   ![](/message_system/images/generate_token.png)     
+   ![](/message_system/images/generate_token.png)
 
-     * Choose the POST/ DELETE/ GET option
-     * Enter the appropriate URL
-     * Click on the Body label
-     * Click on the raw label
-     * Click on the Text label and change it to JSON
-     * Enter username and password
-     * Click Send 
+   * Choose the POST/DELETE/GET option
+   * Enter the appropriate URL
+   * Click on the Body label
+   * Click on the raw label
+   * Click on the Text label and change it to JSON
+   * Enter username and password
+   * Click Send
    
-<br>
+   <br>
       
 8. Now according to the next picture we'll copy only the value of the access (without quotation marks)
-       ![](/message_system/images/token_resp.png)
-
-<br> 
+   ![](/message_system/images/token_resp.png)
 
 9. Now we'll access the request that we want to send
      * Now we'll go to the Headers tab, we'll add the key word Authorization in the Key and write Bearer in the Value and paste the token we received earlier.
      * Now we'll access the Body, add the relevant content inside the JSON object and click Send, and the request will be sent.
-
-
-
 
 <br>
 
