@@ -59,8 +59,10 @@ The system will handle various operations such as sending, receiving, and managi
    <br>
 7. Send a request from Postman.
    * **Firstly you need to generate a token, and perform the following steps according to the picture:**
-
-![](/images/generate_token.png)
+   
+   <br>
+   
+   ![](/images/generate_token.png)
 
    * Choose the POST/DELETE/GET option
    * Enter the appropriate URL
@@ -73,8 +75,9 @@ The system will handle various operations such as sending, receiving, and managi
    <br>
 
 8. Now according to the next picture we'll copy only the value of the access (without quotation marks)
+   
 
-![](/images/token_resp.png)
+   ![](/images/token_resp.png)
 
 
 
