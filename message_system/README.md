@@ -81,7 +81,6 @@ The system will handle various operations such as sending, receiving, and managi
 
    ![](images/token_resp.png)
 
-   <br>
 
 9. Finaly we'll access the request that we want to send
      * Now we'll go to the Headers tab, we'll add the key word Authorization in the Key and write Bearer in the Value and paste the token we received earlier.
