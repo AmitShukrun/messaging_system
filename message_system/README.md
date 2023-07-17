@@ -58,11 +58,13 @@ The system will handle various operations such as sending, receiving, and managi
 
    <br>
 7. Send a request from Postman.
-   * **Firstly you need to generate a token, and perform the following steps according to the picture:**
+   * **Firstly you need to generate token, and perform the following steps according to the picture:**
    
    <br>
    
    ![](/images/generate_token.png)
+
+   <br>
 
    * Choose the POST/DELETE/GET option
    * Enter the appropriate URL
@@ -78,8 +80,6 @@ The system will handle various operations such as sending, receiving, and managi
    
 
    ![](/images/token_resp.png)
-
-
 
    <br>
 
