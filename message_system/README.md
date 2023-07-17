@@ -9,7 +9,6 @@
     
 ### Description
 
-
 The goal of this task is to develop a backend system with REST API that manages the exchange of messages among users.
 <br>
 The system will handle various operations such as sending, receiving, and managing messages between users.
@@ -19,11 +18,11 @@ The system will handle various operations such as sending, receiving, and managi
 ### Guide
 
 
-### To run the project, We'll perform the following actions:
+### To run the project, we'll perform the following actions:
 
 
 
-1. First of all - We'll download PostgreSQL version 15 if it's not installed on the computer:
+1. First of all - we'll download PostgreSQL version 15 if it's not installed on the computer:
 
     ```
    Link: 
@@ -53,14 +52,15 @@ The system will handle various operations such as sending, receiving, and managi
 
    <br>
 
+
 6. Now logged into Postman to send one of the requests.
    * **Please note:** I have attached a file called "Messaging system.postman_collection.json" which is a collection that contains all the requests needed for the project. 
 
    <br>
 7. Send a request from Postman.
    * **Firstly you need to generate a token, and perform the following steps according to the picture:**
-   
-   ![](/message_system/images/generate_token.png)
+
+![](/images/generate_token.png)
 
    * Choose the POST/DELETE/GET option
    * Enter the appropriate URL
@@ -71,11 +71,16 @@ The system will handle various operations such as sending, receiving, and managi
    * Click Send
    
    <br>
-      
-8. Now according to the next picture we'll copy only the value of the access (without quotation marks)
-   ![](/message_system/images/token_resp.png)
 
-9. Now we'll access the request that we want to send
+8. Now according to the next picture we'll copy only the value of the access (without quotation marks)
+
+![](/images/token_resp.png)
+
+
+
+   <br>
+
+9. Finaly we'll access the request that we want to send
      * Now we'll go to the Headers tab, we'll add the key word Authorization in the Key and write Bearer in the Value and paste the token we received earlier.
      * Now we'll access the Body, add the relevant content inside the JSON object and click Send, and the request will be sent.
 
@@ -110,4 +115,3 @@ The system will handle various operations such as sending, receiving, and managi
         ├── urls.py
         └── views.py
 ```
-

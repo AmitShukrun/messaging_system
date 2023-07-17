@@ -69,7 +69,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"username\":\"user1\",\r\n  \"password\": \"amit1996!\"\r\n}",
+					"raw": "{\r\n  \"username\":\"user1\",\r\n  \"password\": \"uu123456789!\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -103,7 +103,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5NjE5OTMyLCJpYXQiOjE2ODk1MzM1MzIsImp0aSI6IjBjZWY2MzlhZTYxNjRjMzZhODkwMTk4ZTViMmM1YTU3IiwidXNlcl9pZCI6MX0.VVO-rtD6HxoqjVmQYAfUFgI-q8cbmyczdtpvf6HrIz4",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5NjM0MTYxLCJpYXQiOjE2ODk1NDc3NjEsImp0aSI6ImMxMmQxZjY5MThjZDQ3Y2VhZmIyZjQ1ZDQyYzRhOTEyIiwidXNlcl9pZCI6MX0.2Hv9U2CFVuAf0cKz91_a-S-PG18WXErxaSnlTwBShnE",
 						"type": "text"
 					}
 				],
@@ -140,7 +140,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5NjIwMDY5LCJpYXQiOjE2ODk1MzM2NjksImp0aSI6ImI4ZmJmM2U1OTEzMzQ0MWM4N2MyNTNlZWY4M2Y5NzUwIiwidXNlcl9pZCI6MX0.vsA-lJprwZOnz4EXLD7Jg5QFr0T0N1q0wwNeywS5zrU",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5NjM0MTYxLCJpYXQiOjE2ODk1NDc3NjEsImp0aSI6ImMxMmQxZjY5MThjZDQ3Y2VhZmIyZjQ1ZDQyYzRhOTEyIiwidXNlcl9pZCI6MX0.2Hv9U2CFVuAf0cKz91_a-S-PG18WXErxaSnlTwBShnE",
 						"type": "text"
 					}
 				],
@@ -169,7 +169,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5NjIwMDY5LCJpYXQiOjE2ODk1MzM2NjksImp0aSI6ImI4ZmJmM2U1OTEzMzQ0MWM4N2MyNTNlZWY4M2Y5NzUwIiwidXNlcl9pZCI6MX0.vsA-lJprwZOnz4EXLD7Jg5QFr0T0N1q0wwNeywS5zrU",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5NjM0MTYxLCJpYXQiOjE2ODk1NDc3NjEsImp0aSI6ImMxMmQxZjY5MThjZDQ3Y2VhZmIyZjQ1ZDQyYzRhOTEyIiwidXNlcl9pZCI6MX0.2Hv9U2CFVuAf0cKz91_a-S-PG18WXErxaSnlTwBShnE",
 						"type": "text"
 					}
 				],
@@ -204,12 +204,12 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5NjIwMDY5LCJpYXQiOjE2ODk1MzM2NjksImp0aSI6ImI4ZmJmM2U1OTEzMzQ0MWM4N2MyNTNlZWY4M2Y5NzUwIiwidXNlcl9pZCI6MX0.vsA-lJprwZOnz4EXLD7Jg5QFr0T0N1q0wwNeywS5zrU",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5NjM0MTYxLCJpYXQiOjE2ODk1NDc3NjEsImp0aSI6ImMxMmQxZjY5MThjZDQ3Y2VhZmIyZjQ1ZDQyYzRhOTEyIiwidXNlcl9pZCI6MX0.2Hv9U2CFVuAf0cKz91_a-S-PG18WXErxaSnlTwBShnE",
 						"type": "text"
 					}
 				],
 				"url": {
-					"raw": "http://localhost:8000/api/messages/user/1/",
+					"raw": "http://localhost:8000/api/messages/user/7/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -219,7 +219,7 @@
 						"api",
 						"messages",
 						"user",
-						"1",
+						"7",
 						""
 					]
 				}
@@ -229,16 +229,16 @@
 		{
 			"name": "Delete message",
 			"request": {
-				"method": "PUT",
+				"method": "DELETE",
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5NjIwMDY5LCJpYXQiOjE2ODk1MzM2NjksImp0aSI6ImI4ZmJmM2U1OTEzMzQ0MWM4N2MyNTNlZWY4M2Y5NzUwIiwidXNlcl9pZCI6MX0.vsA-lJprwZOnz4EXLD7Jg5QFr0T0N1q0wwNeywS5zrU",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg5NjM0MTYxLCJpYXQiOjE2ODk1NDc3NjEsImp0aSI6ImMxMmQxZjY5MThjZDQ3Y2VhZmIyZjQ1ZDQyYzRhOTEyIiwidXNlcl9pZCI6MX0.2Hv9U2CFVuAf0cKz91_a-S-PG18WXErxaSnlTwBShnE",
 						"type": "text"
 					}
 				],
 				"url": {
-					"raw": "http://localhost:8000/api/messages/user/1/",
+					"raw": "http://localhost:8000/api/messages/user/19/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -248,7 +248,7 @@
 						"api",
 						"messages",
 						"user",
-						"1",
+						"19",
 						""
 					]
 				}
